@@ -1,0 +1,104 @@
+:root{
+    --white:#f0f0f0;
+    --gray: #1d1d1d;
+    --dark: #121212;
+    --purple: #ba85fb;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    color: var(--white);
+    background-color: var(--dark);
+
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+h1{
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: #00000075;
+
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;   
+}
+
+h3{
+    padding-right: 15vw;
+
+    color: var(--purple);
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+.data label{
+    margin-right: 25%;
+
+    text-align:left;
+}
+
+p{
+    font-size: 1.2rem
+}
+
+.login button{
+    margin-left: 50%;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: var(--purple);
+    color: var(--white);
+
+    font-size: 2.5rem;
+
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.login, .home{
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 7px;
+    width: 60vw;
+    max-width: 20rem;
+
+    background-color: var(--gray);
+
+    text-align: center;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.home{
+    padding: 10px;
+    min-height: 18rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh;
+    grid-gap: 20px;
+}

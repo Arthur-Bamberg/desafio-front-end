@@ -1,0 +1,2 @@
+# Desafio Front end de Arthur Bamberg
+ Uma aplicação usando react que possui 2 telas. A primeira uma tela de login, onde o usuário irá digitar "user" e "password", ao clicar em entrar o usuário deve ser redirecionado para uma segunda tela de HOME. Nessa tela é necessário que o nome que o usuário digitou, em "user" anteriormente, seja apresentado no topo. Além disso, um GRID com algumas opções, e ao clicar em alguma, apresenta uma tabela no centro da tela com informações fictícias.
